@@ -1,0 +1,20 @@
+### Steps to reproduce:
+1. ..
+2. ..
+
+### Information:
+Movie(s) I have this with: Hmm John Wick 2, City of gods, American History X and alot more
+Quality of the movie being searched: Both BR-Disk, 1080p and 720p
+Providers I use: Kickass, TBP, RARBG
+Version of CouchPotato: desktop: 3.0.1
+Running on: Mac Mini with macOS 10.12.3
+
+### Logs:
+```
+02-22 00:47:02 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10cc05090>} 
+02-22 00:47:04 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10c2d0f10>} 
+02-22 00:47:06 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10cd72f90>} 
+02-22 00:47:07 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10c206e50>} 
+02-22 00:47:10 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10c6e8b10>} 
+02-22 00:47:11 ERROR [chpotato.core.plugins.log] API log: {'file': u'http://HOST/static/scripts/combined.plugins.min.js?1441054380', 'message': u"chrome 56: \nUncaught TypeError: Cannot read property 'allow_3d' of null", 'line': u'3315', 'page': u'http://HOST/settings/searcher/profile/', '_request': <couchpotato.api.ApiHandler object at 0x10c6e8e10>} 
+```
